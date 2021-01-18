@@ -1,0 +1,361 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* ヘッダー */
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.7; 
+  position: fixed;
+  z-index: 10;
+}
+
+.header li {
+  float: left;
+  color: black;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+/* トップ */
+
+.top {
+  position: relative;
+}
+
+/* .top div {
+  position: absolute;
+  top: 400px;
+  left: 700px;
+} */
+
+.my-photo {
+  width: 100%;
+  background-size: cover;
+}
+
+.my-name {
+  position: absolute;
+  top: 400px;
+  left: 660px;
+  color: black;
+  font-size: 30px;
+  border-bottom: 2px solid black;
+}
+
+/* プロフィール */
+
+.profile {
+  background-color: white;
+  position: relative;
+  /* padding-bottom: 120px; */
+  height: 460px;
+  z-index: 3;
+}
+
+.profile-container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.profile-container div {
+  float: left;
+}
+
+.profile-image {
+  float: left;
+  /* width: 400px; */
+  padding: 50px 50px 50px 110px;
+  /* margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 100px; */
+}
+
+.profile-paragragh {
+  padding-left: 60px;
+  width: 500px;
+}
+
+.profile-paragragh h2 {
+  font-size: 30px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.profile-paragragh p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+/* プログラミングスキル */
+
+.my-skill {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.programming-photo {
+  width: 100%;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+/* .my-skill p {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color:white;
+} */
+
+.prog-skill {
+  position: absolute;
+  top: 180px;
+  left: 140px;
+  width: 1200px;
+  /* margin: 0 auto; */
+}
+
+.skill-heading {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.skill-heading h2 {
+  /* text-align: center; */
+  font-size: 28px;
+  color: white;
+  /* margin-top: 30px;
+  margin-bottom: 40px; */
+}
+
+/* 横並びはプロゲート中級編を確認 */
+
+.indi-skill {
+  float: left; 
+  /* margin: 50px; */
+  width: 25%;
+}
+
+.indi-skill h3 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.indi-skill i {
+  font-size: 150px;
+  margin-bottom: 20px;
+}
+
+.indi-skill p {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.fa-code {
+  color: white;
+}
+
+.fa-js {
+  color: red;
+}
+
+.fa-laravel {
+  color: blue;
+}
+
+.fa-wordpress {
+  color: yellow;
+}
+
+.indi-skill p {
+  font-size: 14px;
+  color: white;
+}
+
+/* 他のスキル（ふわっとフェードイン入れる？） */
+
+.other-skill {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  /* height: 700px; */
+}
+
+/* .block {
+  width: 100%;
+  background-size: cover;
+} */
+
+.other-skill h2 {
+  padding-top: 50px;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+}
+
+.my-performance {
+  margin: 50px 0px 100px 300px;
+  width: 1000px;
+  height: 300px;
+}
+
+.my-performance div{
+  float: left;
+  margin-left: 100px;
+}
+
+.performance-image {
+  display: inline-block;
+}
+
+.performance-image img {
+}
+
+.comment {
+  display: inline-block;
+}
+
+.comment h3 {
+  color: black;
+  font-size: 24px;
+  border-bottom: 1px solid black;
+}
+
+.comment p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.comment1 {
+  padding-top: 30px;
+}
+
+.ifbc {
+  height: 300px;
+  margin: 50px;
+  padding: 50px;
+}
+
+.ifbc div {
+  float: left;
+  margin-left: 100px;
+}
+
+.ifbc-comment {
+  display: inline-block;
+}
+
+.ifbc-comment h3 {
+  color: black;
+  font-size: 24px;
+  border-bottom: 1px solid black;
+}
+
+.ifbc-comment p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.ifbc-image {
+  display: inline-block;
+}
+
+/* ワークアウト */
+
+.workout {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.workout-photo {
+  width: 100%;
+  background-size: cover;
+}
+
+.workout-container {
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  width: 1300px; /* 親要素の幅が狭いから、真ん中に来なかった。*/
+  /* margin: 0 auto; */
+}
+
+.workout-heading h2 {
+  /* text-align: center; */
+  font-size: 32px;
+  color: white;
+  padding: 30px 0;
+}
+
+.workout-image {
+  padding-top: 30px;
+}
+
+.workout-image img {
+  padding-left: 20px;
+}
+
+.workout-image img:hover {
+  opacity: 0.8;
+}
+
+/* コンタクトフォーム */
+
+.contact-form {
+  background-color: white;
+  z-index: 2;
+  position: relative;
+  height: 600px;
+}
+
+.form {
+  width: 400px;
+  margin: 30px auto;
+}
+
+.contact-form h2 {
+  font-size: 32px;
+  text-align: center;
+  padding: 30px 0;
+  color: black;
+}
+
+input, textarea {
+  width: 400px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.submit {
+  width: 40px;
+  margin-left: 180px;
+}
+
+.footer {
+  z-index: 5;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.footer h2 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  line-height: 60px;
+}
